@@ -1,0 +1,67 @@
+<header>
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="#"><span class="fa fa-"></span></a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="https://github.com/GalvanMoto" class="icon fa fa-github" target="_blank"></a></li>
+					<li><a href="https://www.youtube.com/channel/UCfKFSShUEX0YRhh__wTwtgg" class="icon fa fa-youtube" target="_blank"></a></li>
+					<li><a href="https://in.pinterest.com/GalvanMoto/" class="icon fa fa-pinterest-p" target="_blank"></a></li>
+					<li><a href="https://www.instagram.com/gp._09/" class="icon fa fa fa-instagram" target="_blank"></a></li>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <style>
+        
+        	.navbar-default {
+        		background: #444444;
+        	}
+			.navbar-default .navbar-nav li:hover{
+				background-color: rgb(97, 252, 79);
+			}
+        	.navbar-default .navbar-nav li a {
+        		color: white;
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: white;
+			}
+			
+			.navbar-nav {
+				float: right;
+			}
+			.navbar-nav li:hover{
+				background-color: rgb(97, 252, 79);
+			}
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+        </style>

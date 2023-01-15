@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Company</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel='shortcut icon' type='image/x-icon' href='logo.ico' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+	}
+	
+	</style>
+	
+	<header>
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="#"><span class="fa fa-"></span></a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="https://github.com/GalvanMoto" class="icon fa fa-github" target="_blank"></a></li>
+					<li><a href="https://www.youtube.com/channel/UCfKFSShUEX0YRhh__wTwtgg" class="icon fa fa-youtube" target="_blank"></a></li>
+					<li><a href="https://in.pinterest.com/GalvanMoto/" class="icon fa fa-pinterest-p" target="_blank"></a></li>
+					<li><a href="https://www.instagram.com/gp._09/" class="icon fa fa fa-instagram" target="_blank"></a></li>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="navbar-brand" href=""></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html"><span>Home</span></a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="company.html">Company</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <style>
+        
+        	.navbar-default {
+        		background: #444444;
+        	}
+			.navbar-default .navbar-nav li:hover{
+				background-color: rgb(97, 252, 79);
+			}
+        	.navbar-default .navbar-nav li a {
+        		color: white;
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: white;
+			}
+			
+			.navbar-nav {
+				float: right;
+			}
+			.navbar-nav li:hover{
+				background-color: rgb(97, 252, 79);
+			}
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+        </style>
+
+    
+    <!--<div class="container">
+    	<ul class="breadcrumb">
+  			<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+  			<li class="active">Projects</li>
+		</ul>
+	</div>-->
+
+	
+    <div class="pricing-table" style="background-color:rgb(142, 142, 142);">
+    	<div class="container">
+    		<div class="table">
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h1><span class="symbol">Code With Galvan</span></h1>
+    						<p>Great Fun With Coding</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>Youtube Channel </li>
+    							<li><a href="https://www.youtube.com/channel/UCfKFSShUEX0YRhh__wTwtgg" target="_blank"><button type="button">Subscribe</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h3></h3>
+    						<h1><span class="symbol">GALVAN BHAI</span></h1>
+    						<p>Gaming With Fun</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>Youtube Channel</li>
+    							<li><a href="https://www.youtube.com/@galvanbhai" target="_blank"><button type="button">Subscribe</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    			
+    			<div class="col-md-4 col-sm-4">
+    				<div class="block">
+    					<div class="cost">
+    						<h1><span class="symbol">Gautam Parmar</span></h1>
+    						<p>LinkedIn profile</p>
+    					</div>
+    				
+    					<div class="info">
+    						<ul class="item-list">
+    							<li>Check my LinkedIn Profile </li>
+    							<li><a href="https://github.com/GalvanMoto" target="_blank"><button type="button">Visit profile</button></a></li>
+    						</ul>
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    
+	<div class="featured-list" style="background-color: #444444; color:white;">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-area-chart"></i>
+					</div>
+					<h3>Data Science</h3>
+					<hr>
+					<p></p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-youtube-play"></i>
+					</div>
+					<h3>Youtuber</h3>
+					<hr>
+					<p></p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-code"></i>
+					</div>
+					<h3>CODER</h3>
+					<hr>
+					<p></p>
+				</div>
+			</div>
+			<!--
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-calendar"></i>
+					</div>
+					<h3>Apeirian Molestiae</h3>
+					<hr>
+					<p>Nulla iuvaret cu est, an euismod accusata his, has an evertitur inciderint. An est dicta ludus oblique. Ei sea nominati rationibus.</p>
+				</div>
+			</div>
+		
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-globe"></i>
+					</div>
+					<h3>Magna Exerci Putant</h3>
+					<hr>
+					<p>Quo illud persequeris at, inani discere dissentias no eum. At ius odio iuvaret. Mea error nihil id. Clita dolorum necessitatibus ea per.</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<div class="section">
+					<div class="icon-container">
+						<i class="fa fa-heart"></i>
+					</div>
+					<h3>Timeam Sententiae</h3>
+					<hr>
+					<p>Ad cetero mnesarchum accommodare usu, at mei posse aliquam invidunt. Ea his feugait pertinacia, ex everti platonem facilisis his.</p>
+				</div>
+			</div>-->
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>Code With Galvan</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							<a href="https://www.youtube.com/channel/UCfKFSShUEX0YRhh__wTwtgg?sub_confirmation=1" target="_blank"> Youtube</a>
+						</p>
+						<p>
+							This my channel where is used to code.
+						</p>
+						<p>
+							Subscribe!
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Galvan Bhai</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							<a href="https://www.youtube.com/channel/UC9pGVJMV_2qtJwJ0EwdCJHw?sub_confirmation=1" target="_blank"> Youtube</a>
+						</p>
+						<p>
+							This my channel where is used to Play Games.
+						</p>
+						<p>
+							Subscribe!
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>GalvanMoto</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							<a href="https://github.com/GalvanMoto" target="_blank">Github</a>
+						</p>
+						<p>
+							My Github profile.
+						</p>
+						<p>
+							Find My Projects here.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="copyright-part">
+		<p>&copy 2023 <span>GalvanMoto</span> All Rights Reserved</p>
+	</div>
+    
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+    
+
+</body>
+
+</html>
